@@ -1,12 +1,283 @@
-
+<!DOCTYPE HTML>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+{% load static %}
+
+<head>
+    <title>Alpha Prototype Computer Vision</title>
+
+
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="keywords" content="Template, html, premium, themeforest" />
+    <meta name="description" content="Traveler - Premium template for travel companies">
+    <meta name="author" content="Tsoy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
+    <!-- /GOOGLE FONTS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mystyles.css' %}">
+    <script src="{% static 'js/modernizr.js' %}"></script>
+
+
 </head>
+
 <body>
-        <h1>
-            AlphaCV
-        </h1>
+
+        <div class="container">
+            <h1 class="page-title">What Are You Looking For?</h1>
+        </div>
+
+                        <div class="col-md-12">
+
+                    
+  <form action="">
+	  <input type="file" name="pic" accept="image/*">
+	  <br>
+	  <input type="submit">
+  </form>
+  <br>
+  <p><strong>Helpdesk:</strong> As this alpha is for testing purposes, it is recommended that you upload pictures of shoes and mobile phones. We didn't have time to train the machine other categories of products =)</p>
+  
+  <hr width="1320">
+
+                    <div class="row row-no-gutter">
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/400x300.png' %}" alt="Image Alternative text" title="the journey home" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="El inevitable paso del tiempo" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="Viva Las Vegas" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="people on the beach" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="Gaviota en el Top" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="4 Strokes of Fun" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="Pictures at the museum" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="new york at an angle" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="Bridge" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="Street" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="The Hidden Power of the Heart" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="Plunklock live in Cologne" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="Fly away" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="Pizza Hut" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumb">
+                                <a class="hover-img" href="#">
+                                    <img src="{% static 'img/800x600.png' %}" alt="Image Alternative text" title="me" />
+                                    <div class="hover-inner hover-inner-block hover-inner-bottom hover-inner-bg-black hover-inner-sm hover-hold">
+                                        <div class="text-small">
+                                            <p><i class="fa fa-map-marker"></i> Item Name</p><small class="text-white">Source</small>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gap gap-small"></div>
+                    <ul class="pagination">
+                        <li class="active"><a href="#">1</a>
+                        </li>
+                        <li><a href="#">2</a>
+                        </li>
+                        <li><a href="#">3</a>
+                        </li>
+                        <li><a href="#">4</a>
+                        </li>
+                        <li><a href="#">5</a>
+                        </li>
+                        <li><a href="#">6</a>
+                        </li>
+                        <li><a href="#">7</a>
+                        </li>
+                        <li class="dots">...</li>
+                        <li><a href="#">10</a>
+                        </li>
+                        <li class="next"><a href="#">Next Page</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gap"></div>
+
+
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <script src="{% static 'js/bootstrap.js' %}"></script>
+        <script src="{% static 'js/slimmenu.js' %}"></script>
+        <script src="{% static 'js/bootstrap-datepicker.js' %}"></script>
+        <script src="{% static 'js/bootstrap-timepicker.js' %}"></script>
+        <script src="{% static 'js/nicescroll.js' %}"></script>
+        <script src="{% static 'js/dropit.js' %}"></script>
+        <script src="{% static 'js/ionrangeslider.js' %}"></script>
+        <script src="{% static 'js/icheck.js' %}"></script>
+        <script src="{% static 'js/fotorama.js' %}"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script src="{% static 'js/typeahead.js' %}"></script>
+        <script src="{% static 'js/card-payment.js' %}"></script>
+        <script src="{% static 'js/magnific.js' %}"></script>
+        <script src="{% static 'js/owl-carousel.js' %}"></script>
+        <script src="{% static 'js/fitvids.js' %}"></script>
+        <script src="{% static 'js/tweet.js' %}"></script>
+        <script src="{% static 'js/countdown.js' %}"></script>
+        <script src="{% static 'js/gridrotator.js' %}"></script>
+        <script src="{% static 'js/custom.js' %}"></script>
+    </div>
 </body>
+
 </html>
